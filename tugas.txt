@@ -1,0 +1,111 @@
+Nama	: muhammad saiful mujab
+NIM	: L200180139
+kelas	: E
+
+
+1.jelaskan mengapa dibutuhkan data !
+Data diperlukan dalam segala hal, baik berupa pengukuran, 
+pencatatan, pengumpulan informasi, maupun pengambilan keputusan semuanya memerlukan data. 
+Dengan kata lain data sangat dibutuhkan karena informasi yang ada akan 
+memberikan arti yang sangat penting baik untuk saat ini maupun untuk akan datang.
+ Sehingga definisi dari data adalah informasi yang mengandung arti.
+
+
+
+2. jelaskan manfaat database dan contohnya !
+ 
+-  Kecepatan dan Kemudahan (Speed)
+
+Manfaat pertama dari basis data adalah dalam hal kecepatan dan kemudahan. 
+Artinya dirancangnya basis data bertujuan untuk mempercepat proses pengolahan informasi.
+
+-Kebersamaan Pemakaian (Sharability)
+
+Database yang baik dituntut untuk dapat dipakai bersamaan (shared-database). 
+Contohnya adalah database MySQL, yang menyediakan akses database dalam waktu yang bersamaan.
+
+- Pemusatan Kontrol Data
+
+Pemusatan kontrol data berarti maintenance data dapat dilakukan oleh user yang 
+ditunjuk sebagai penanggung jawab atas pengelolaah database di suatu sistem, dan dalam hal ini user
+ yang bersangkutan disebut administrator database.
+-Efisiensi Ruang Penyimpanan (Space)
+
+Karena basis data disimpan pada PC yang bersifat dedicated, maka ini tentu akan 
+menghemat space dimana proses penyimpanan data tidak dilakukan pada semua 
+PC client tetapi disimpan pada PC tunggal yang telah ditentukan.
+-Ketersediaan (Availability)
+Ketersediaan berarti bahwa data atau informasi hasil olahaan tersedia kapan pun dibutuhkan.
+
+3. - pendeskripsian kebutuhan informasi dan data
+- spesifikasi data
+- pemrosesan yang diperlukan oleh data
+-pertimbangan keamanan 
+- kecocokan dengan tipe aplikasi 
+- bahasa query
+- biaya tak langsung terhadap pemrosesan
+
+4- Database
+Sebuah repositori untuk menyimpan data
+. Sebagai contoh, database mungkin menyimpan semua data 
+yang terkait dengan keuangan di sebuah perusahaan besar, 
+informasi tentang CD dan koleksi DVD, atau catatan dari
+ sebuah toko online.
+-Tabel
+Sebuah bagian dari database yang menyimpan data yang 
+berhubungan dengan suatu objek, hal, atau kegiatan. 
+Misalnya, meja mungkin menyimpan data tentang pelanggan. 
+Sebuah tabel memiliki kolom, bidang, atau atribut. Data disimpan sebagai baris atau catatan.
+- field
+disebut juga kolom yaitu bagian tabel yang berfungsi menyimpan data
+- record
+suatu yang merekam data agar data tidak hilang secara tiba-tiba
+
+5.a. Duplikasi data 
+Duplikasi data terjadi karena masing-masing bagian mengelola data secara sendiri-sendiri. Sehingga data yang sama tersimpan pada berbagai tempat. Misalnya : Bagian kemahasiswaan telah menyimpan dan mengelola data mahasiswa untuk kepentingannya, tapi di bagian jurusan juga menyimpan dan mengelola data mahasiswa sesuai dengan kepentingannya juga. 
+
+b. Terbatasnya berbagi data 
+Hal inilah yang menyebabkan terjadi duplikasi data, karena antara satu bagian dengan bagian lainnya tidak saling berhubungan atau berdiri sendiri. 
+
+c. Ketidakonsistennya data 
+Ketidakkonsistennya data terjadi karena terjadipenyimpanan dan pengelolaan data yang sama di berbagai tempat. Misalnya : Si Dodi adalah mahasiswa jurusan manajemen, pada semester 3 Dodipindah ke jurusan akuntansi. Bagian salah satu komponen penting dalam sistem informasi, karena merupakan dasar dalam menyediakan informasi Menentukan kualitas informasi : akurat, tepat pada waktunya dan relevan. Informasi dapat dikatakan bernilai bila manfaatnya lebih efektif dibandingkan dengan biaya mendapatkannya. Mengurangi duplikasi data (data redudancy) Mengurangi pemborosan tempat simpanan luar kemahasiswaan telah mencatat dan menyimpan data Dodi sebagai mahasiswa jurusan akuntansi. Tapi di bagian jurusan manajemen, karena tidak adanya informasi, maka si Dodi tetap tercatat sebagai mahasiswa jurusan manajemen. 
+Tentu hal seperti ini akan berakibat fatal, bukan ! 
+
+d. Kurangnya integritas data 
+Karena adanya ketidakkonsistenan data mengakibatkan kurangnya Integritas terhadap data. Integritas menyangkut dalam hal kevalidan data. 
+
+e. Kesulitan dalam mendapatkan informasi 
+Misalnya pada suatu saat, kepala akademik menginginkan data mahasiswa dengan IPK diatas 3.00. Maka tentu hal ini akan menghabiskan waktu yang lama untuk memprosesnya, apalagi kalau jumlah data yang diolah sudah mencapai lebih dari ribuan record. 
+
+f. Ketidakluwesan 
+Kurangnya respon dalam hal menghadapi perubahan dan pengembangan atas informasi yang diinginkan. Misalnya, kalau terjadiperubahan terhadap data yang diinginkan, maka haruslah diulang dari awal lagi. Begitu juga halnya dengan tingkat kompatibilitas dengan perkembangan perangkat lunak di masa depan. 
+
+Semua kelemahan-kelemahan dalam pengelolaan data secara manual diatas dapat diatasi dengan pengelolaan data dalam suatu sistem database. Berikut keuntungan menggunakan database dalam mengelola suatu sistem informasi ; 
+
+a. Duplikasi data dapat diminimalkan 
+Duplikasi data dapat diminimalkan, dan biasanya data yang duplikat tersebut merupakan field kunci. Hal ini memang tidak bisa di hindari, karena field kunci ini digunakan nantinya sebagai key untuk hubungan antar tabel dan menyangkut integritas serta independensi data. 
+
+b. Integritas data tinggi 
+Tingkat kevalidan data tinggi, karena data yang sama saling berelasi, sehingga apabila ada perubahan pada suatu data, maka data yang sama difile yang lain otomatis juga berubah. 
+
+c. Independensi data 
+Tingkat ketergantungan data sangat tinggi, dimana anda tidak bisa melakukan perubahan terhadap suatu data, jika data tersebut sedang dipakai oleh file lain. Misalnya ; Anda tidak dapat menghapus data matakuliah tertentu pada file matakuliah, kalau matakuliah tersebut sedang diambil oleh mahasiswa pada file KRS misalnya. 
+
+d. Konsistensi data tinggi 
+Ini berhubungan dengan independensi data, sehingga tingkat konsistensi data jadi tinggi. 
+
+e. Dapat berbagi (sharing) data 
+Ini merupakan salah satu keunggulan dari pengelolaan data dengan sistem database, dimana anda dapat saling berbagi dalam penggunaan file, baik bersifat jaringan maupun client server. Modul Pelatihan Database 
+f. Tingkat keamanan tinggi 
+Adanya pemberian password dan hak akses pada suatu file mengakibatkan hanya orang yang berhak saja yang bisa mengakses file tersebut. Sehingga lebih aman. 
+
+g. Mudahnya mendapatkan data 
+Proses mendapatkan data dan informasi pada database dapat dilakukan dengan mudah, terutama menggunakan Structure Query Language (SQL), yang merupakan bahasa standar dalam DBMS. 
+
+6. tujuan dari DBMS adalah memberikan tampilan kepada 
+pengguna dalam hal menyampaikan data. 
+Untuk itu dalam DBMS terdapat Level Abstraksi Data. 
+Level ini berguna untuk menyembunyikan detail atau kompleksitasnya basis data seperti bagaimana data disempan dan diolah. Sehingga pengguna hanya melihat tampilan yang dibutuhkan oleh pengguna.
+
+7. Pada tabel Mhs, terdapat 6 field yaitu: NIM, NAMA, TEMPAT_LAHIR, TANGGAL_LAHIR, ALAMAT, TELEPON. Masing-masing field diatur sesuai tipe data yang dibutuhkan. Pada field NIM diatur tipe data text, berarti pada record dapat diisikan data berupa teks huruf, angka, dan simbol-simbol lain. Ukuran tipe data pada field NIM diatur sepanjang 10, artinya digit maksimum yang dapat dimasukkan ke dalam record adalah 10 digit. Jika data yang dimasukkan lebih dari 10 digit, maka digit ke-11 dan berikutnya tidak akan terbaca. Untuk pengaturan maksimum defaultnya sendiri adalah sepanjang 255 digit. Kemudian pada field NAMA, sama-sama diatur tipe data text, namun panjang ukurannya berbeda, yaitu 30, artinya kita dapat memasukkan digit maksimum ke dalam record yaitu sepanjang 30 digit, melebihi 30 data ke-31 dan seterusnya tidak akan terbaca. Pada filed TANGGAL_LAHIR diatur tipe date/time yang berarti pada record dapat diisikan data berupa angka dan symbol. Pada field TELEPHONE diatur tipe integer, berarti pada record dapat diisikan angka saja.
+
